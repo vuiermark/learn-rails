@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '2.0.0'
+ruby '2.1.0'
 gem 'rails', '4.0.1'
 
 # Rails defaults
@@ -19,7 +19,7 @@ gem 'gibbon'
 gem 'google_drive'
 gem 'high_voltage'
 gem 'simple_form'
-gem 'zurb-foundation'
+gem 'zurb-foundation', '~> 4.3.2'
 
 group :development do
 	gem 'better_errors'

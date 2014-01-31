@@ -1,17 +1,17 @@
 <% content_for :title do %>Vuier - Instant Pay-Per-View<% end %>
-<% content_for :description do %>Website of Foobar Kadigan<% end %>
+<% content_for :description do %>Instant PPV coming soon<% end %>
 <section>
 	<%= image_tag 'hires_vuier_log.jpg', size: '840x640' %>
 </section>
 <section>
 	<div class="column">
-		<h2><font color="#FFFFFF">We're re-tooling Vuier to make it better than ever</font color></h2>
+		<h2><font color="#FFFFFF">We're re-tooling Vuier to provide you with instant pay-per-view</font color></h2>
 	</div>
 	<div class="column">
 		<div class="form-centered">
 			<%= simple_form_for @visitor do |f| %>
 				<%= f.error_notification %>
-				<%= f.input :email, label: false, :placeholder => 'Your email address....' %>
+				<%= f.input :email, label: false, :placeholder => 'Your email address...' %>
 				<br/>
 				<%= f.button :submit, "Be notified when we're back", :class => "submit" %>
 				<% end %>
