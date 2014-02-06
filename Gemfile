@@ -10,6 +10,7 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
+# gem 'aws-sdk', '~> 1.20.0'
 
 # learn-rails
 gem 'activerecord-tableless'

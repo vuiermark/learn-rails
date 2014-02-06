@@ -1,6 +1,13 @@
 // import the CSS framework
 @import "foundation";
 
+$include-html-type-classes: $include-html-classes;
+
+$header-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+
+/*$baseFontFamily: Oxygen;
+@import url(http://fonts.googleapis.com/css?family=Oxygen);*/
+
 // override for the 'Home' navigation link
 .top-bar .name {
   font-size: rem-calc(13);
@@ -47,5 +54,10 @@ section {
   @extend .row;
   margin-top: 20px;
   }
+h2 { text-align: center;
+    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+     }
+
+h6 { text-align: center }
 
 
